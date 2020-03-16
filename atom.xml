@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>三才问雪</title>
+  <title>黎明</title>
   
-  <subtitle>GitHub云笔记</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thedxr.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://thedxr.github.io/</id>
   
   <author>
-    <name>Xiaoran Du</name>
+    <name>三才问雪</name>
     
   </author>
   

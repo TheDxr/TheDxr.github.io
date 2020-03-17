@@ -64,7 +64,7 @@
 <hr>
 <p>链接也可以用变量来代替，文档末尾附带变量地址：<br>这个链接用 1 作为网址变量 <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a><br>这个链接用 runoob 作为网址变量 <a href="http://www.baidu.com/" target="_blank" rel="noopener">Baidu</a><br>然后在文档的结尾为变量赋值（网址）</p>
 <hr>
-<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><img src="file://note/ING_1.jpg" size = "%50">  
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><img src="https://github.com/TheDxr/TheDxr.github.io/blob/master/images/note/IMG_1.jpg" size = "%50">  
 
 
 <p>表格   </p>

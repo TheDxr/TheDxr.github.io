@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thedxr.github.io/"/>
-  <updated>2020-03-18T02:43:17.865Z</updated>
+  <updated>2020-03-18T03:10:48.476Z</updated>
   <id>https://thedxr.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://thedxr.github.io/2020/03/mdnote2/"/>
     <id>https://thedxr.github.io/2020/03/mdnote2/</id>
     <published>2020-03-18T02:18:24.000Z</published>
-    <updated>2020-03-18T02:43:17.865Z</updated>
+    <updated>2020-03-18T03:10:48.476Z</updated>
     
-    <content type="html"><![CDATA[<p>记录一些Markdown的高级用法.</p><a id="more"></a><h1 id="HTML插入"><a href="#HTML插入" class="headerlink" title="HTML插入"></a>HTML插入</h1><ul><li>标识  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span>HTML<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li>图片<br><img src="/2020/03/mdnote2/IMG_6.JPG" alt><img src="/2020/03/mdnote2/IMG_6.JPG" width="20%"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![](IMG_6.JPG)</span><br><span class="line">&lt;img src&#x3D;&quot;IMG_6.JPG&quot; width &#x3D; &quot;20%&quot;&gt;</span><br></pre></td></tr></table></figure></li></ul><hr><h1 id="typora画图"><a href="#typora画图" class="headerlink" title="typora画图"></a>typora画图</h1>]]></content>
+    <content type="html"><![CDATA[<p>记录一些Markdown的高级用法.</p><a id="more"></a><h1 id="HTML插入"><a href="#HTML插入" class="headerlink" title="HTML插入"></a>HTML插入</h1><ul><li>标识  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span>HTML<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li>图片<br><img src="/2020/03/mdnote2/mdnote2%5CIMG_6.JPG" alt><img src="/2020/03/mdnote2/IMG_6.JPG" width="20%"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![](mdnote2\IMG_6.JPG)</span><br><span class="line">&lt;img src&#x3D;&quot;mdnote2\IMG_6.JPG&quot; width &#x3D; &quot;20%&quot;&gt;</span><br></pre></td></tr></table></figure></li></ul><hr><h1 id="typora画图"><a href="#typora画图" class="headerlink" title="typora画图"></a>typora画图</h1>]]></content>
     
     <summary type="html">
     

@@ -49,9 +49,9 @@
     <link href="https://thedxr.github.io/2020/03/DLbasic/"/>
     <id>https://thedxr.github.io/2020/03/DLbasic/</id>
     <published>2020-03-22T08:18:24.000Z</published>
-    <updated>2020-03-22T09:11:24.801Z</updated>
+    <updated>2020-03-22T14:48:02.270Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h1><ul><li>来源 : 《神经网络与深度学习》(<a href="http://neuralnetworksanddeeplearning.com/" target="_blank" rel="noopener">Neuralnetworks and Deeplearning</a>)</li></ul><h2 id="常用名词"><a href="#常用名词" class="headerlink" title="常用名词"></a>常用名词</h2><ul><li><p>偏置 ( bias )</p></li><li><p>阈值 ( threshold )</p><a id="more"></a></li><li><p>梯度下降法（ gradient descent ）</p></li><li><p>平方损失（ quadratic cost ）</p></li></ul><h2 id="感知机规则"><a href="#感知机规则" class="headerlink" title="感知机规则"></a>感知机规则</h2><img src="/2020/03/DLbasic/1.jpg" width="80%"><h2 id="Sigmoid神经元"><a href="#Sigmoid神经元" class="headerlink" title="Sigmoid神经元"></a>Sigmoid神经元</h2><ul><li><p>S型曲线（S-Curve）多存在于分类评定模型（Logit model），逻辑回（Logistic regression）模型  </p><img src="/2020/03/DLbasic/2.jpg" width="60%"></li><li><p>使用s曲线主要是避免阈值效应,减小微小变化对结果的影响.</p><img src="/2020/03/DLbasic/3.jpg" width="40%"></li></ul><h1 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h1><ul><li><p>代价函数  </p><img src="/2020/03/DLbasic/4.jpg" width="60%">  衡量我们当前取得的结果距离目标结果的好坏程度</li><li><p>迭代过程  </p><img src="/2020/03/DLbasic/5.jpg" width="50%">  n为学习率（learning rate）</li><li></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h1><ul><li>来源 : 《神经网络与深度学习》(<a href="http://neuralnetworksanddeeplearning.com/" target="_blank" rel="noopener">Neuralnetworks and Deeplearning</a>)</li></ul><h2 id="常用名词"><a href="#常用名词" class="headerlink" title="常用名词"></a>常用名词</h2><ul><li><p>偏置 ( bias )</p><a id="more"></a></li><li><p>阈值 ( threshold )</p></li><li><p>梯度下降法（ gradient descent ）</p></li><li><p>平方损失（ quadratic cost ）</p></li><li><p>向量化（vectorizing）</p></li><li><p>批梯度下降 ( Batch gradient descent )</p></li><li><p>随机梯度下降 ( stochastic gradient descent )</p></li><li><p>小批的梯度下降 ( mini-batch gradient decent )<br>mini batch 下的梯度下降中降样本被分为一个个子集进行梯度下降</p></li><li><h2 id="感知机规则"><a href="#感知机规则" class="headerlink" title="感知机规则"></a>感知机规则</h2><img src="/2020/03/DLbasic/1.jpg" width="60%"></li></ul><h2 id="Sigmoid神经元"><a href="#Sigmoid神经元" class="headerlink" title="Sigmoid神经元"></a>Sigmoid神经元</h2><ul><li><p>S型曲线（S-Curve）多存在于分类评定模型（Logit model），逻辑回（Logistic regression）模型  </p><img src="/2020/03/DLbasic/2.jpg" width="40%"></li><li><p>使用s曲线主要是避免阈值效应,减小微小变化对结果的影响.</p><img src="/2020/03/DLbasic/3.jpg" width="20%"></li></ul><h1 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h1><ul><li><p>代价函数  </p><img src="/2020/03/DLbasic/4.jpg" width="40%">  衡量我们当前取得的结果距离目标结果的好坏程度数字越大说明训练效果越差</li><li><p>迭代过程  </p><img src="/2020/03/DLbasic/5.jpg" width="30%">  n为学习率（learning rate）</li><li></li></ul>]]></content>
     
     <summary type="html">
     
@@ -59,9 +59,7 @@
 &lt;li&gt;来源 : 《神经网络与深度学习》(&lt;a href=&quot;http://neuralnetworksanddeeplearning.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Neuralnetworks and Deeplearning&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;常用名词&quot;&gt;&lt;a href=&quot;#常用名词&quot; class=&quot;headerlink&quot; title=&quot;常用名词&quot;&gt;&lt;/a&gt;常用名词&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;偏置 ( bias )&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;阈值 ( threshold )&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;偏置 ( bias )&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     

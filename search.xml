@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>机器学习常用线性代数知识</title>
+    <url>/2020/03/DLmath/</url>
+    <content><![CDATA[<h1 id="线性代数基础"><a href="#线性代数基础" class="headerlink" title="线性代数基础"></a>线性代数基础</h1><h2 id="线性代数本质"><a href="#线性代数本质" class="headerlink" title="线性代数本质"></a>线性代数本质</h2><a id="more"></a>
+<iframe src="//player.bilibili.com/player.html?aid=6043439&bvid=BV1ns41167b9&cid=9809358&page=1" width="800" height="600" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h2 id="特性值和特征向量"><a href="#特性值和特征向量" class="headerlink" title="特性值和特征向量"></a>特性值和特征向量</h2><p>设A是n阶方阵，如果数λ和n维非零列向量x使关系式Ax=λx成立，那么这样的数λ称为矩阵A特     征值，非零向量x称为A的对应于特征值λ的特征向量。式Ax=λx也可写成( A-λE)X=0。这是n     个未知数n个方程的齐次线性方程组，它有非零解的充分必要条件是系数行列式| A-λE|=0。<br><img src="/2020/03/DLmath/6.jpg" width="50%"> </p>
+<hr>
+<iframe src="//player.bilibili.com/player.html?aid=6540378&bvid=BV1Ls411b7oL&cid=10640206&page=1" width="800" height="600" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h2 id="特征值求法"><a href="#特征值求法" class="headerlink" title="特征值求法"></a>特征值求法</h2><img src="/2020/03/DLmath/7.jpg" width="80%"> 
+
+<h2 id="相似矩阵"><a href="#相似矩阵" class="headerlink" title="相似矩阵"></a>相似矩阵</h2><p><em><em>介绍 : *</em>设A,B都是n阶矩阵，若存在可逆矩阵P，使P^(-1)AP=B，则称B是A的相似矩阵, 并称矩阵A与B相似，记为A~B。*同一线性变换,不同基下的矩阵.</em><br>对进行运算称为对进行相似变换，称可逆矩阵为相似变换矩阵。</p>
+<h2 id="奇异值分解"><a href="#奇异值分解" class="headerlink" title="奇异值分解"></a>奇异值分解</h2><p>*<em>介绍 : *</em>奇异值分解在某些方面与对称矩阵或Hermite矩阵基于特征向量的对角化类似。然而这两种矩阵分解尽管有其相关性，但还是有明显的不同。谱分析的基础是对称阵特征向量的分解，而奇异值分解则是谱分析理论在任意矩阵上的推广。</p>
+<ul>
+<li>相似对角化 : 若A相似于一个对角矩阵.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习记录</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>深度学习实践</title>
     <url>/2020/03/DLtest/</url>
     <content><![CDATA[<h1 id="数字分类"><a href="#数字分类" class="headerlink" title="数字分类"></a>数字分类</h1><ul>
@@ -66,16 +92,6 @@
 n为学习率（learning rate）
 
 </li>
-</ul>
-<h1 id="线性代数基础"><a href="#线性代数基础" class="headerlink" title="线性代数基础"></a>线性代数基础</h1><h2 id="线性代数本质"><a href="#线性代数本质" class="headerlink" title="线性代数本质"></a>线性代数本质</h2><iframe src="//player.bilibili.com/player.html?aid=6043439&bvid=BV1ns41167b9&cid=9809358&page=1" width="800" height="600" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<h2 id="特性值和特征向量"><a href="#特性值和特征向量" class="headerlink" title="特性值和特征向量"></a>特性值和特征向量</h2><p>设A是n阶方阵，如果数λ和n维非零列向量x使关系式Ax=λx成立，那么这样的数λ称为矩阵A特     征值，非零向量x称为A的对应于特征值λ的特征向量。式Ax=λx也可写成( A-λE)X=0。这是n     个未知数n个方程的齐次线性方程组，它有非零解的充分必要条件是系数行列式| A-λE|=0。<br><img src="/2020/03/DLbasic/6.jpg" width="50%"> </p>
-<h2 id="特征值求法"><a href="#特征值求法" class="headerlink" title="特征值求法"></a>特征值求法</h2><img src="/2020/03/DLbasic/7.jpg" width="80%"> 
-
-<h2 id="相似矩阵"><a href="#相似矩阵" class="headerlink" title="相似矩阵"></a>相似矩阵</h2><p>*<em>介绍 : *</em>设A,B都是n阶矩阵，若存在可逆矩阵P，使P^(-1)AP=B，则称B是A的相似矩阵, 并称矩阵A与B相似，记为A~B。<br>对进行运算称为对进行相似变换，称可逆矩阵为相似变换矩阵。</p>
-<h2 id="奇异值分解"><a href="#奇异值分解" class="headerlink" title="奇异值分解"></a>奇异值分解</h2><p>*<em>介绍 : *</em>奇异值分解在某些方面与对称矩阵或Hermite矩阵基于特征向量的对角化类似。然而这两种矩阵分解尽管有其相关性，但还是有明显的不同。谱分析的基础是对称阵特征向量的分解，而奇异值分解则是谱分析理论在任意矩阵上的推广。</p>
-<ul>
-<li>相似对角化 : 若A相似于一个对角矩阵.</li>
 </ul>
 ]]></content>
       <categories>

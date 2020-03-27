@@ -17,6 +17,18 @@
 <ul>
 <li>相似对角化 : 若A相似于一个对角矩阵.</li>
 </ul>
+<h2 id="施密特正交化"><a href="#施密特正交化" class="headerlink" title="施密特正交化"></a>施密特正交化</h2><img src="/2020/03/DLmath/8.jpg" width="50%"> 
+
+<img src="/2020/03/DLmath/9.jpg" width="60%"> 
+
+<h2 id="向量范数"><a href="#向量范数" class="headerlink" title="向量范数"></a>向量范数</h2><ul>
+<li>L0范数 : 向量中非零元素个数</li>
+<li>L1范数 : 绝对值之和,曼哈顿距离.</li>
+<li>l2范数 : 欧几里得距离.</li>
+<li>l正无穷 : 绝对值最大值.</li>
+<li>l负无穷 : min.</li>
+</ul>
+<h2 id="矩阵范数"><a href="#矩阵范数" class="headerlink" title="矩阵范数"></a>矩阵范数</h2><p>矩阵范数应用 : 推荐系统正则化.</p>
 ]]></content>
       <categories>
         <category>学习记录</category>

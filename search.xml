@@ -42,9 +42,75 @@
     <title>深度学习实践</title>
     <url>/2020/03/DLtest/</url>
     <content><![CDATA[<h1 id="数字分类"><a href="#数字分类" class="headerlink" title="数字分类"></a>数字分类</h1><ul>
-<li><p>数据集来源<br><kbd>git clone <a href="https://github.com/mnielsen/neural-networks-and-deep-learning.git" target="_blank" rel="noopener">https://github.com/mnielsen/neural-networks-and-deep-learning.git</a></kbd></p>
+<li>数据集来源<br>  git clone <a href="https://github.com/mnielsen/neural-networks-and-deep-learning.git" target="_blank" rel="noopener">https://github.com/mnielsen/neural-networks-and-deep-learning.git</a></li>
+</ul>
+<h2 id="MNIST数据读取"><a href="#MNIST数据读取" class="headerlink" title="MNIST数据读取"></a>MNIST数据读取</h2><ul>
+<li><p>数据读取参考教程: <a href="https://blog.csdn.net/panrenlong/article/details/81736754" target="_blank" rel="noopener">https://blog.csdn.net/panrenlong/article/details/81736754</a></p>
+<a id="more"></a></li>
+<li><p>python的struct用法       </p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>return</th>
+<th>explain</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>pack(fmt,v1,v2…)</td>
+<td>string</td>
+<td>按照给定的格式(fmt),把数据转换成字符串(字节流),并将该字符串返回.</td>
+</tr>
+<tr>
+<td>pack_into(fmt,buffer,offset,v1,v2…)</td>
+<td>None</td>
+<td>按照给定的格式(fmt),将数据转换成字符串(字节流),并将字节流写入以offset开始的buffer中.(buffer为可写的缓冲区,可用array模块)</td>
+</tr>
+<tr>
+<td>unpack(fmt,v1,v2…..)</td>
+<td>tuple</td>
+<td>按照给定的格式(fmt)解析字节流,并返回解析结果</td>
+</tr>
+<tr>
+<td>pack_from(fmt,buffer,offset)</td>
+<td>tuple</td>
+<td>按照给定的格式(fmt)解析以offset开始的缓冲区,并返回解析结果</td>
+</tr>
+<tr>
+<td>calcsize(fmt)</td>
+<td>size of fmt</td>
+<td>计算给定的格式(fmt)占用多少字节的内存，注意对齐方式</td>
+</tr>
+</tbody></table>
+<p>输入输出格式化</p>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Byte order</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>@</td>
+<td>4个字节</td>
+</tr>
+<tr>
+<td>=</td>
+<td>原生</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小端</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>大端</td>
+</tr>
+</tbody></table>
 </li>
-<li><a id="more"></a></li>
+<li><p>具体代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">index = <span class="number">0</span></span><br><span class="line">magic, numImages , numRows , numColumns = struct.unpack_from(<span class="string">'&gt;IIII'</span>,data,index)</span><br><span class="line">index += struct.calcsize(<span class="string">'&gt;IIII'</span>)</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 ]]></content>
       <categories>
